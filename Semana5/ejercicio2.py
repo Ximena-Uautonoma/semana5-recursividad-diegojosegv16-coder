@@ -10,8 +10,8 @@ Debe implementar:
 def suma_ciclo(n):
     for i in range(0, n+1):
         resultado = i + i
-        return 
-    pass
+        return resultado
+print(suma_ciclo(5))
 
 
 def suma_recursiva(n):
