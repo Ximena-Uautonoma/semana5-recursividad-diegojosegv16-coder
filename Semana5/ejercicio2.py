@@ -8,9 +8,9 @@ Debe implementar:
 """
 
 def suma_ciclo(n):
-    """
-    Retorna la suma de los primeros n números usando un ciclo.
-    """
+    for i in range(0, n+1):
+        resultado = i + i
+        return 
     pass
 
 
