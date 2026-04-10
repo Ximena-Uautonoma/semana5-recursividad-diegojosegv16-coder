@@ -19,7 +19,7 @@ print(total_ventas_ciclo([100, 200, 300]))
 
 def total_ventas_recursivo(ventas):
     if not ventas:
-        return 1
+        return 0
     else:
         return ventas[0] + total_ventas_ciclo(ventas[1:])
 print(total_ventas_recursivo([100, 200, 300]))
